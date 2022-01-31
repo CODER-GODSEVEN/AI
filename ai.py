@@ -54,7 +54,7 @@ while True:
     print(f'{tag}\n')
    
     if w == 0: 
-        print('무슨 뜻인지 이해하지 못했습니다.')
+        print('TagError')
 
     else: 
         for intent in data['intents']:
